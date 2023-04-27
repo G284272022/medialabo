@@ -1,7 +1,20 @@
+p{
+    color: #5411d8;
+}
+h1 {
+	background-color:white;
+	text-shadow: rgb(208, 5, 107) 0px 0 10px;
+	color: rgb(27, 24, 24);
+}
+h2 {
+	color: #03e499;
+	margin: 5px;
+	font-family: i;
+	background: linear-gradient(0.25turn,rgb(199, 16, 236), #c7061c);
+}
 h3{
-    color: rgb(198, 227, 13);
-    background-color: purple;
+    color: rgb(5, 243, 247);
+    background: linear-gradient(0.25turn,rgb(199, 16, 236), #c7061c);
 }
-div.zentai {
 
-}
+
