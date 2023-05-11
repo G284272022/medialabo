@@ -17,8 +17,9 @@ let gakka = [
 //////////////// ここから下にプログラムを書きたそう!
 console.log(campus.address);
 for (let n of buildingD) {
-    console.log(n.buildingD[i]);
+    console.log(n);
 }
-for (let department of gakka) {
-	console.log(`学科名: ${department.name}`);
-  }
+for (let m of gakka) {
+    console.log(m);
+}
+
