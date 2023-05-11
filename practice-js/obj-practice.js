@@ -19,7 +19,6 @@ console.log(campus.address);
 for (let n of buildingD) {
     console.log(n.buildingD[i]);
 }
-for (let m of gakka) {
-    console.log(m.name[i]);
-}
-
+for (let department of gakka) {
+	console.log(`学科名: ${department.name}`);
+  }
