@@ -16,24 +16,28 @@ hantei();
 function hantei() {
   // 将来ここでは 4 ではなくテキストボックスに指定された数値を yoso に代入する
   let yoso = 4;
-  kaisu+=1;
   console.log(kaisu+'回目の予想:' +yoso);
   if (kaisu >= 4) {
     console.log("答えは" + kotae +"でした．すでにゲームは終わっています");
+    kaisu+=4;
   }else if(kaisu==3){
     console.log("まちがい.残念でした答えは" + kotae +"です．"); 
+    kaisu+=1;
   }
   else{
     if (yoso > kotae) {
         console.log("まちがい.答えはもっと小さいですよ");
+        kaisu+=1;
       }
     
     else if(yoso < kotae) {
         console.log("まちがい.答えはもっと大きいですよ");
+        kaisu+=1;
       }
     
     else{
         console.log("正解です.おめでとう!");
+        kaisu+=1;
       }
   }
 
