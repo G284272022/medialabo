@@ -23,7 +23,7 @@ function hantei() {
   }else if(kaisu==3 && kotae!=4){
     console.log("まちがい.残念でした答えは" + kotae +"です．"); 
   }else if(kaisu==3 && kotae==4){
-    console.log("答えは" + kotae +"でした．すでにゲームは終わっています");
+    console.log("正解です.おめでとう!");
 
   }
   else{
