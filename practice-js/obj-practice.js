@@ -17,9 +17,9 @@ let gakka = [
 //////////////// ここから下にプログラムを書きたそう!
 console.log(campus.address);
 for (let n of buildingD) {
-    console.log(n[i]);
+    console.log(n);
 }
 for (let m of gakka) {
-    console.log(m.name[i]);
+    console.log(m.name);
 }
 
