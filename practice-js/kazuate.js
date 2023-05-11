@@ -23,11 +23,11 @@ function hantei() {
   }
   else{
     if (yoso > kotae) {
-        console.log("答えはもっと小さいですよ");
+        console.log("まちがい.答えはもっと小さいですよ");
       }
     
     else if(yoso < kotae) {
-        console.log("答えはもっと大きいですよ");
+        console.log("まちがい.答えはもっと大きいですよ");
       }
     
     else{
