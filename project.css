@@ -1,1 +1,11 @@
-
+h1 {
+	background: linear-gradient(0.25turn,skyblue, navy);
+	text-shadow: rgb(13, 67, 243) 0px 0 10px;
+	color: white;
+	
+}
+p{
+    background: linear-gradient(0.25turn,skyblue, navy);
+    text-shadow: rgb(13, 67, 243) 0px 0 10px;
+	color: white;
+}
