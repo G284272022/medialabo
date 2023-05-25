@@ -55,11 +55,32 @@ p3.textContent = ("最低気温: "+data.main.temp_min+"℃");
 let b1 = document.querySelector('button#print');
 b1.addEventListener('click', changesColor);
 function changesColor() {
-  let r = Math.floor(Math.random() * 256);
-	let g = Math.floor(Math.random() * 256);
-	let b = Math.floor(Math.random() * 256);
-	let color = 'rgb(' + r + ',' + g + ',' + b + ')';
+  let r = Math.floor(Math.random() * 12)+1;
+  let body = document.querySelector('body');
+  if(r==1){
+    body.style.backgroundColor = '#ffbcbc';
+  }else if(r==2){
+    body.style.backgroundColor = '#ffbcdd';
+  }else if(r==3){
+    body.style.backgroundColor = '#ffbcff';
+  }else if(r==4){
+    body.style.backgroundColor = '#ddbcff';
+  }else if(r==5){
+    body.style.backgroundColor = '#bcbcff';
+  }else if(r==6){
+    body.style.backgroundColor = '#bcddff';
+  }else if(r==7){
+    body.style.backgroundColor = '#bcffff';
+  }else if(r==8){
+    body.style.backgroundColor = '#bcffdd';
+  }else if(r==9){
+    body.style.backgroundColor = '#bcffbc';
+  }else if(r==10){
+    body.style.backgroundColor = '#ddffbc';
+  }else if(r==11){
+    body.style.backgroundColor = '#fffbc';
+  }else if(r==12){
+    body.style.backgroundColor = '#ffddbc';
+  }
 
-	let body = document.querySelector('body');
-	body.style.backgroundColor = color;
 }
