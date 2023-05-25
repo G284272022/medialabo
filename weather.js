@@ -52,3 +52,14 @@ let p2 = document.querySelector('p#temp_max1');
 p2.textContent = ("最高気温: "+data.main.temp_max+"℃");
 let p3 = document.querySelector('p#temp_min1');
 p3.textContent = ("最低気温: "+data.main.temp_min+"℃");
+let b1 = document.querySelector('button#print');
+b1.addEventListener('click', changesColor);
+function changesColor() {
+  let r = Math.floor(Math.random() * 256);
+	let g = Math.floor(Math.random() * 256);
+	let b = Math.floor(Math.random() * 256);
+	let color = 'rgb(' + r + ',' + g + ',' + b + ')';
+
+	let body = document.querySelector('body');
+	body.style.backgroundColor = color;
+}
