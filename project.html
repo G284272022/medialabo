@@ -4,22 +4,19 @@
     <meta charset="utf-8">
     <title>天気</title>
     <link rel="stylesheet" href="project.css">
-    <script src="weather.js" defer></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+    <script src="weather.js" defer></script> 
   </head>
   <body>
-   <h1>天気</h1>
-   <label for="list">場所 </label>
+   <h1>天気☀️</h1>
+   <label for="list">都市の検索(id)💻 </label>
    <br><input type="search" name="basho" size="10">
-    <button id="print">回答</button>
+    <button id="print">検索</button>
    <table>
-    <tr>
-        <td></td>
-    </tr>
-
+    
    </table>
-   <p id="name1">場所</p>
-   <p id="temp_max1">最高気温</p>
-   <p id="temp_min1">最低気温</p>
+   <p id="name">都市名:  🌃</p>
+   <p id="temp_max">最高気温:  🥵</p>
+   <p id="temp_min">最低気温:  🥶</p>
   </body>
 </html>
