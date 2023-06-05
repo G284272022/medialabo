@@ -12,3 +12,29 @@ p{
 	color: white;
 	font-size: 200%;
 }
+h2{
+	background: linear-gradient(0.25turn,skyblue, navy);
+	text-shadow: rgb(13, 67, 243) 0px 0 10px;
+	color: white;
+	
+	
+}
+p1{
+	text-shadow: rgb(243, 159, 13) 0px 0 10px;
+	color: white;
+	
+}
+div#zentai {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	flex-direction: row;
+	grid-auto-flow: 200px 200px;
+	grid-gap: 10px;
+	margin: 1px;
+	width: 1675px;
+	
+}
+div#zentai > div {
+	margin-left: 1px;
+	background:linear-gradient(0.25turn,rgb(223, 97, 126), rgb(220, 101, 188));
+}

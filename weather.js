@@ -99,13 +99,13 @@ function showResult(resp){
   console.log(data.main.temp_max);
   console.log(data.main.temp_min);
   let p1 = document.querySelector('p#name');
-p1.textContent = ("都市名: "+data.name); 
+p1.textContent = ("都市名: "+data.name+"🏙️"); 
 let p2 = document.querySelector('p#temp_max');
-p2.textContent = ("最高気温: "+data.main.temp_max+"℃");
+p2.textContent = ("最高気温: "+data.main.temp_max+"℃ 🥵");
 let p3 = document.querySelector('p#temp_min');
-p3.textContent = ("最低気温: "+data.main.temp_min+"℃");
+p3.textContent = ("最低気温: "+data.main.temp_min+"℃ 🥶");
 let p4= document.querySelector('p#situ');
-p4.textContent = ("湿度: "+data.main.humidity+"%");
+p4.textContent = ("湿度: "+data.main.humidity+"% 💦");
 
 }
 
